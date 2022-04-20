@@ -32,7 +32,7 @@ async function removeOldPins() {
       await axios.delete(`${baseUrl}/pinning/unpin/${ipfsPinHash}`, {
         headers
       })
-      console.log(`Successfully removed pin: ${ipfsPinHash}`)
+      //console.log(`Successfully removed pin: ${ipfsPinHash}`)
     }
   }
 }
